@@ -1,0 +1,19 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/aboutus/page": "app/aboutus/page.js",
+  "/api/send-appointment/route": "app/api/send-appointment/route.js",
+  "/api/send-query/route": "app/api/send-query/route.js",
+  "/contact/page": "app/contact/page.js",
+  "/hair-styles/andpersand/page": "app/hair-styles/andpersand/page.js",
+  "/hair-styles/bridal/page": "app/hair-styles/bridal/page.js",
+  "/hair-styles/collection2011/page": "app/hair-styles/collection2011/page.js",
+  "/hair-styles/collection2012/page": "app/hair-styles/collection2012/page.js",
+  "/hair-styles/launchpad/page": "app/hair-styles/launchpad/page.js",
+  "/hair-styles/page": "app/hair-styles/page.js",
+  "/offers/page": "app/offers/page.js",
+  "/hair-styles/rock/page": "app/hair-styles/rock/page.js",
+  "/page": "app/page.js",
+  "/services/gents/page": "app/services/gents/page.js",
+  "/services/page": "app/services/page.js",
+  "/services/loyalty-card/page": "app/services/loyalty-card/page.js"
+}

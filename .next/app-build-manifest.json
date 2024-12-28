@@ -1,0 +1,144 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/app/_not-found/page-fe9fc664026166c6.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/css/f2292dcd51f434e8.css",
+      "static/chunks/8e1d74a4-44291ce1b4f4bfc8.js",
+      "static/chunks/972-8278b3cf5401ec3f.js",
+      "static/chunks/704-ce7b78bbc95ff4be.js",
+      "static/chunks/app/layout-ce12ee457549265a.js"
+    ],
+    "/aboutus/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/app/aboutus/page-9c8204dcff378ac4.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/8e1d74a4-44291ce1b4f4bfc8.js",
+      "static/chunks/app/contact/page-002f55366070a3e3.js"
+    ],
+    "/hair-styles/andpersand/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/app/hair-styles/andpersand/page-11da1973e039f8f5.js"
+    ],
+    "/hair-styles/bridal/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/app/hair-styles/bridal/page-e6ce09e8b8123c1a.js"
+    ],
+    "/hair-styles/collection2011/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/app/hair-styles/collection2011/page-17c53e56af09f7f4.js"
+    ],
+    "/hair-styles/collection2012/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/app/hair-styles/collection2012/page-50980d7b932dd620.js"
+    ],
+    "/hair-styles/launchpad/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/app/hair-styles/launchpad/page-e96b637ec6df0767.js"
+    ],
+    "/hair-styles/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/app/hair-styles/page-03514b93b8d88f90.js"
+    ],
+    "/offers/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/8e1d74a4-44291ce1b4f4bfc8.js",
+      "static/chunks/5e22fd23-be40b6c697cdb5a0.js",
+      "static/chunks/795d4814-1dc1fbeb97836bc4.js",
+      "static/chunks/548-11e05720865b0276.js",
+      "static/chunks/app/offers/page-4512d2847d340460.js"
+    ],
+    "/hair-styles/rock/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/app/hair-styles/rock/page-f14be68f7b516aeb.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/8e1d74a4-44291ce1b4f4bfc8.js",
+      "static/chunks/5e22fd23-be40b6c697cdb5a0.js",
+      "static/chunks/548-11e05720865b0276.js",
+      "static/chunks/app/page-f5907c202dd72943.js"
+    ],
+    "/services/gents/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/8e1d74a4-44291ce1b4f4bfc8.js",
+      "static/chunks/5e22fd23-be40b6c697cdb5a0.js",
+      "static/chunks/972-8278b3cf5401ec3f.js",
+      "static/chunks/548-11e05720865b0276.js",
+      "static/chunks/app/services/gents/page-6f9f5a28dfe50bef.js"
+    ],
+    "/services/layout": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/972-8278b3cf5401ec3f.js",
+      "static/chunks/app/services/layout-cad099389ce5f6f0.js"
+    ],
+    "/services/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/8e1d74a4-44291ce1b4f4bfc8.js",
+      "static/chunks/5e22fd23-be40b6c697cdb5a0.js",
+      "static/chunks/972-8278b3cf5401ec3f.js",
+      "static/chunks/548-11e05720865b0276.js",
+      "static/chunks/app/services/page-f0ef81c066e5c70a.js"
+    ],
+    "/services/loyalty-card/page": [
+      "static/chunks/webpack-dec24956dfc1e61d.js",
+      "static/chunks/fd9d1056-10dfaec9b4318f4c.js",
+      "static/chunks/117-585ebb944048f507.js",
+      "static/chunks/main-app-dace83ef61d0b216.js",
+      "static/chunks/app/services/loyalty-card/page-1929edcf6ba6cd17.js"
+    ]
+  }
+}

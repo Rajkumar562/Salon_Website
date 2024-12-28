@@ -1,0 +1,8 @@
+{
+  "github.copilot.preferredAccount": "rajkumarchoudhury562@gmail.com",
+  "github.copilot.advanced": {},
+  "emmet.triggerExpansionOnTab": true,
+  "tailwindCSS.emmetCompletions": true,
+  "emmet.useInlineCompletions": true,
+  "emmet.showSuggestionsAsSnippets": true
+}

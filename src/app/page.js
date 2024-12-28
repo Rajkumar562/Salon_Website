@@ -1,101 +1,51 @@
-import Image from "next/image";
+import AppointmentForm from "@/components/AppointmentForm";
+import ImageGrid from "@/components/ImageGrid";
+import Carousel from "@/components/Carousel";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="">
+      <Carousel />
+      <ImageGrid />
+      <h2 className="text-xl md:text-2xl lg:text-3xl text-black text-center my-10">OUR SERVICES</h2>
+      <div className="flex">
+        <a href="#" className="relative w-1/2">
+          <img src="/images/home/gents.jpg" alt="Gents" className="w-full h-full object-cover" />
+          <span className="absolute top-1/2 left-3/4 transform -translate-x-1/2 -translate-y-1/2 px-2 py-1 text-center text-2xl sm:text-4xl md:text-5xl lg:text-6xl">
+            GENTS
+          </span>
+        </a>
+        <div className="relative w-1/2">
+          <img src="/images/home/ladies.jpg" alt="Ladies" className="w-full h-full object-cover" />
+          <span className="absolute top-1/2 left-3/4 transform -translate-x-1/2 -translate-y-1/2 px-2 py-1 text-center text-2xl sm:text-4xl md:text-5xl lg:text-6xl">
+            LADIES
+          </span>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
+      <AppointmentForm />
+
+      <section className="px-10 sm:px-20 md:px-32 lg:px-40 text-left mt-10">
+        <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-6">
+          Explore the Realm of Beauty with Z<sup>3</sup> Salon
+        </h2>
+        <p className="text-sm md:text-base lg:text-lg">
+          With over 162 branches nationally and internationally, Z<sup>3</sup> salon is a premium beauty salon for men
+          and women who desire to look the best every day. Getting a makeover not only changes the appearance of a
+          person but also brings back the lost confidence and Z<sup>3</sup> Salon would take pride in being a part of
+          it. From beauty to grooming services, we provide a tremendous range of facilities that touches every dimension
+          of beauty and hair treatments. Our repertoire of professional experts makes sure that all your beauty and hair
+          questions are answered, and you leave the salon with a big smile on your face.
+          <br className="mt-4" />
+          With over 6000 employees engaged in transforming your look, we make sure that all the services provided at our
+          salons meet the international standards. Through our advice and solutions from the expertise in this array, we
+          aim at giving the best services through our state-of-art facilities. Our professional stylists and beauty
+          experts are constantly updated with the latest trends and fashion advices that help them to work efficiently
+          and deliver outstanding results!
+          <br className="mt-4" />
+          Give us an opportunity to serve you once, we are sure you&apos;ll love to come back to us again and be our
+          esteemed customer forever. Fill the form or call us to book an appointment now!
+        </p>
+      </section>
     </div>
   );
 }

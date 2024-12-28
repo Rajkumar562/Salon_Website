@@ -7,7 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      scrollBehavior: ["smooth"],
       colors: {
+        yellow: "#d3af37",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

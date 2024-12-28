@@ -1,9 +1,13 @@
 import localFont from "next/font/local";
-import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Brands from "@/components/Brands";
+import Footer from "@/components/Footer";
+import WhatsappBar from "@/components/WhatsappBar";
+import "@/styles/globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
+const webFont = localFont({
+  src: "./fonts/WebsiteFont.woff2",
+  variable: "--font-web-font",
   weight: "100 900",
 });
 const geistMono = localFont({
@@ -20,10 +24,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${webFont.variable} antialiased`}>
+        <Navbar />
+        <WhatsappBar />
+        <main className="flex-grow">{children}</main>
+        <Brands />
+        <Footer />
       </body>
     </html>
   );
